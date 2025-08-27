@@ -1,0 +1,11 @@
+-- Configuração do GIT
+git config --global user.name marquett0
+git config --global user.email guilhermemarquetto5@gmail.com
+
+-- Criar o gitignore
+dotnet new gitignore
+
+-- Criar o projeto MVC
+dotnet new mvc -o Pokedex
+
+cd Pokedex
